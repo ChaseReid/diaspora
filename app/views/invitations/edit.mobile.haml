@@ -4,7 +4,7 @@
 
 
 #login_form
-  %h3
+  %h4
     = t('.your_account_awaits')
   = form_for(resource, :as => resource_name, :url => invitation_path(resource_name), :html => {:method => :put }) do |f|
     %p
